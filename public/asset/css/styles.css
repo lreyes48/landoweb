@@ -1,0 +1,34 @@
+.body {
+  background-color: bisque;
+}
+.h1 {
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
+.shadow {
+  color: #ededed;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+}
+
+.multiline {
+  white-space: pre-wrap;
+}
+.div1 {
+  width: 33.33%;
+  float: right;
+  color: navy;
+  text-shadow: 2px 2px white;
+}
+.div2 {
+  width: 33.33%;
+  float: left;
+  color: navy;
+  text-shadow: 2px 2px white;
+}
+.div3 {
+  width: 33.33%;
+  margin: 0px auto;
+  color: navy;
+  text-shadow: 2px 2px white;
+}
