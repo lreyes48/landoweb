@@ -32,3 +32,44 @@
   color: navy;
   text-shadow: 2px 2px white;
 }
+
+.terminal {
+    display: block;
+    margin: 0;
+    padding: 15px 20px;
+    min-height: 99%;
+    width: 100%;
+    min-width: 550px;
+    color: #D2B48C;
+    background: #241f1d;
+    font-family: cursor, monospace;
+    overflow-x: hidden;
+}
+.lastLogin {
+    font-weight: 100;
+    font-size: large;
+
+     
+}
+.blood {
+    color: crimson;
+    text-shadow: darkred 2px 2px;
+}
+.textarea {
+    width: 85%;
+    height: 12px;
+    font-size: small;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+}
+#inputt {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #D2B48C;
+    font-family: cursor, monospace;
+    font-size: medium;
+}

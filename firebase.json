@@ -1,9 +1,11 @@
 {
   "hosting": {
-    "rewrites": [ { 
+    "rewrites": [
+      {
         "source": "**/!(*.css|*.js|*.map|*.jpg|*.gif|*.png|*.php|)",
         "destination": "/index.html"
-    } ],
+      }
+    ],
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -11,5 +13,17 @@
       "**/node_modules/**"
     ],
     "cleanUrls": true
-  }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ]
 }
