@@ -1,6 +1,7 @@
 
 const input = document.getElementById('inputt');
 const change = document.getElementById('test');
+const rickroll = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 window.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
@@ -18,6 +19,9 @@ function validate(event) {
     }
     else if (input.value === "amor <3") {
         window.open("mcknz", '_blank');
+    }
+    else if (input.value === "secret") {
+        window.open(rickroll, '_blank')
     }
     else {
         console.log("nada")
