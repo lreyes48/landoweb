@@ -1,40 +1,29 @@
 
-
-
-
-var input = document.getElementById("inputt");
-
-var input2 = document.getElementById("inputt").innerHTML;
-
-console.log(input2);
+const input = document.getElementById('inputt');
+const change = document.getElementById('test');
+const a = 1;
+console.log(input);
 
 window.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
-        console.log(input2);
+        validate(event);
+        after();
+        
     }
 })
-
-function commander(cmd) {
-    switch (cmd.toLowerCase) {
-        case "help":
+function validate(event) {
+    if (input.value === "help") {
+        change.innerHTML = "List of commands haha";
     }
-}
- 
-
-
-//if (input == "help") {
-    //let input2 = "helping";
-//}
-
-
-//input.addEventListener("keypress", (e) => {
-  //  if (e.key === 'Enter')
-    //console.log("s");
+    else if (input.value === "Chambon2022") {
+        window.open("lreyes.dev/Chambon2022", '_blank');
+    }
+    else {
+        console.log("nada")
+    }
     
-//})
-
-
-//inputt.oninput = showResult;
-//function showResult() {
-  //  test.innerText = this.value
-//}
+}
+function after() {
+    input.value = "";
+}
+//very counter productive but, make new css CLASS, not id, and then swap them out maybe?
