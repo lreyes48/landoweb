@@ -16,9 +16,13 @@ function validate(event) {
     else if (input.value === "Chambon2022") {
         window.open("Chambon2022", '_blank');
     }
+    else if (input.value === "amor <3") {
+        window.open("mcknz", '_blank');
+    }
     else {
         console.log("nada")
     }
+    
     
 }
 function after() {
