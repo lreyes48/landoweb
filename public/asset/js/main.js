@@ -1,8 +1,6 @@
 
 const input = document.getElementById('inputt');
 const change = document.getElementById('test');
-const a = 1;
-console.log(input);
 
 window.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
