@@ -14,7 +14,7 @@ function validate(event) {
         change.innerHTML = "List of commands haha";
     }
     else if (input.value === "Chambon2022") {
-        window.open("lreyes.dev/Chambon2022", '_blank');
+        window.open("Chambon2022", '_blank');
     }
     else {
         console.log("nada")
