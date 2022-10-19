@@ -12,7 +12,7 @@ window.addEventListener("keyup", (event) => {
 })
 function validate(event) {
     if (input.value === "help") {
-        change.innerHTML = "List of commands haha";
+        change.innerHTML = "secret, amor <3";
     }
     else if (input.value === "Chambon2022") {
         window.open("Chambon2022", '_blank');
