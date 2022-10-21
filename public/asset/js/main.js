@@ -12,7 +12,7 @@ window.addEventListener("keyup", (event) => {
 })
 function validate(event) {
     if (input.value === "help") {
-        change.innerHTML = "secret, amor <3";
+        change.innerHTML = "secret, ... ";
     }
     else if (input.value === "Chambon2022") {
         window.open("Chambon2022", '_blank');
@@ -32,4 +32,3 @@ function validate(event) {
 function after() {
     input.value = "";
 }
-//very counter productive but, make new css CLASS, not id, and then swap them out maybe?
