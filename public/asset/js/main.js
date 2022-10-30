@@ -85,7 +85,7 @@ function validate(event) {
 
     else {
         clear();
-        change.innerHTML = helpChar;
+        change.innerHTML = "Unavailable command, type 'help' for a list of available commands."
     }
     
     
