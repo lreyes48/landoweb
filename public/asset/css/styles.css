@@ -1,3 +1,7 @@
+:root {
+  --time: 6s;
+  --steps: 12;
+}
 .body {
   background-color: bisque;
 }
@@ -10,7 +14,6 @@
   text-decoration: none;
   text-shadow: 2px 2px black;
 }
-
 .multiline {
   white-space: pre-wrap;
 }
@@ -32,7 +35,6 @@
   color: navy;
   text-shadow: 2px 2px white;
 }
-
 .terminal {
     display: block;
     margin: 0;
@@ -47,9 +49,7 @@
 }
 .lastLogin {
     font-weight: 100;
-    font-size: large;
-
-     
+    font-size: large;    
 }
 .blood {
     color: crimson;
@@ -72,4 +72,44 @@
     color: #D2B48C;
     font-family: cursor, monospace;
     font-size: medium;
+    
+}
+.list {
+  list-style-type: none;
+  list-style: none;
+  margin-left: 25px;
+  padding: 0;
+}
+.textmovewow {
+  position: relative;
+  width: max-content;
+}
+.textmovewow::before,
+.textmovewow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.textmovewow::before {
+  background-color: #241f1d;
+  animation: typewriter var(--time) steps(var(--steps)) 1s forwards; 
+}
+.textmovewow::after {
+  width: 0.125em;
+  background-color: #D2B48C;
+  animation: typewriter var(--time) steps(var(--steps)) 1s forwards, blinkers 750ms  steps(var(--steps)) infinite;
+  
+}
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+@keyframes blinkers {
+  to{
+    background: transparent;
+  }  
 }
