@@ -100,7 +100,7 @@
 .textmovewow::after {
   width: 0.125em;
   background-color: #D2B48C;
-  animation: typewriter var(--time) steps(var(--steps)) 1s forwards, blinkers 750ms  steps(var(--steps)) infinite;
+  animation: typewriter var(--time) steps(var(--steps)) 1s forwards, blinkers 750ms steps(var(--steps)) infinite;
   
 }
 @keyframes typewriter {
