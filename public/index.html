@@ -12,7 +12,7 @@
   <body class="terminal">
     <div class="lastLogin">
     <span style="font-size: smaller;">Roscoe INC. No rights reserved.</span>    
-        <pre>
+<!--        <pre>
                                                                       .-.          
  ██<span class="blood">▓</span>    <span class="blood">▓</span>█████ ▄▄▄       ███▄    █ <span class="blood">▓</span>█████▄  ██▀███   <span class="blood">▒</span>█████          ( " )          
 <span class="blood">▓</span>██<span class="blood">▒</span>    <span class="blood">▓</span>█   ▀<span class="blood">▒</span>████▄     ██ ▀█   █ <span class="blood">▒</span>██▀ ██▌<span class="blood">▓</span>██ <span class="blood">▒</span> ██<span class="blood">▒▒</span>██<span class="blood">▒</span>  ██<span class="blood">▒</span>     /\_.' '._/\
@@ -25,6 +25,7 @@
 <span class="blood">    ░  ░   ░  ░     ░  ░         ░    ░       ░         ░ ░  </span>
 <span class="blood">                                    ░                        </span>
         </pre>
+-->        
     <p1 style="font-size: smaller;">
         For a list of available commands, type 'help'.
     </p1>
@@ -39,6 +40,33 @@
     </div>
   </body>
     <script src="./asset/js/main.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp, } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+      import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCnuMkO2pEo2Q3HKZ7nU0OsRrskM-ltHd0",
+        authDomain: "lando-a2cf6.firebaseapp.com",
+        projectId: "lando-a2cf6",
+        storageBucket: "lando-a2cf6.appspot.com",
+        messagingSenderId: "603012323052",
+        appId: "1:603012323052:web:5604be941f4ddc71b4f7c9",
+        measurementId: "G-GEK7TT0BSD"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const db = firebase.firestore();
+    </script>
     <script src="./asset/js/commands.js"></script>
+
+   
 </html>
 

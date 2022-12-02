@@ -1,7 +1,17 @@
 //maybe delte on the way back?
 //faster speed
 
+db.collection
+
 //make the mobile detector
+//import getFirestore from "../../../node_modules/firebase/firestore/package.json" assert { type: 'json' };
+//const getFirestore = require(['/../../node_modules/firebasefirestore']);
+
+
+
+console.log('hey');
+
+
 
 window.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
@@ -45,8 +55,8 @@ function validate(event) {
             window.open(instagram, '_blank');
             document.getElementById("inputt").focus();
             change.classList.remove('textmovewow');
-            window.open(instagramapp, '_blank')
-        }, parseInt(newtime[0])*1450);
+            //window.open(instagramapp, '_blank')
+        }, parseInt(newtime[0])*0);
         
     }
     else if (input.value.toLowerCase() === "github") {
@@ -59,7 +69,7 @@ function validate(event) {
             window.open(github, '_blank')
             document.getElementById("inputt").focus();
             change.classList.remove("textmovewow");
-        }, parseInt(newtime[2])*1750);
+        }, parseInt(newtime[2])*0);
     }
     else if (input.value.toLowerCase() === "links") {
         clear();
@@ -119,7 +129,10 @@ function after() {
     input.value = "";
 }
 function clear() {
+    change.classList.remove("textmovewow");
     change.innerHTML = "";
     insta.innerHTML = "";
     gitty.innerHTML = "";
 }
+//ua = navigator.platform;
+//console.log(ua);

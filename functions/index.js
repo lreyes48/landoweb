@@ -1,5 +1,9 @@
-const functions = require("firebase-functions");
-
+//import { initializeApp } from "firebase-admin/app";
+//import { firebaseConfig } from "firebase-functions/v1";
+//import {
+  //  getFirestore, collection, getDocs
+//} from 'firebase/firestore';
+//const functions = require("firebase-functions");
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
 //
@@ -7,7 +11,12 @@ const functions = require("firebase-functions");
 //   functions.logger.info("Hello logs!", {structuredData: true});
 //   response.send("Hello from Firebase!");
 // });
-inputt.oninput = showResult;
-function showResult() {
-    test.innerText = this.value
-}
+
+//const db = getFirestore();
+
+//const colRef = collection(db, 'books');
+
+//getDocs(colRef)
+  //  .then((snapshot) => {
+    //    console.log(snapshot.docs);
+   // })
