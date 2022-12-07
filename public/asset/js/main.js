@@ -1,11 +1,6 @@
 //maybe delte on the way back?
 //faster speed
 
-db.collection
-
-//make the mobile detector
-//import getFirestore from "../../../node_modules/firebase/firestore/package.json" assert { type: 'json' };
-//const getFirestore = require(['/../../node_modules/firebasefirestore']);
 
 
 
