@@ -2,10 +2,7 @@
 //faster speed
 
 
-const { initializeApp } = require('firebase/app')
 
-
-console.log(app);
 
 console.log('hey');
 
