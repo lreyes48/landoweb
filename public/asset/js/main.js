@@ -2,7 +2,10 @@
 //faster speed
 
 
+const { initializeApp } = require('firebase/app')
 
+
+console.log(app);
 
 console.log('hey');
 
@@ -56,7 +59,7 @@ function validate(event) {
     }
     else if (input.value.toLowerCase() === "github") {
         clear();
-        gitchar();
+        gitchar();      
         document.activeElement.blur();
         change.classList.add("textmovewow");
         change.innerHTML = "Opening Github..."

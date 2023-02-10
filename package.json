@@ -1,6 +1,14 @@
 {
+
   "dependencies": {
-    "firebase": "^9.13.0",
+
+    "firebase": "^9.17.1",
+
     "requirejs": "^2.3.6"
-  }
+
+  },
+
+  "type": "module"
+
 }
+
