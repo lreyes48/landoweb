@@ -123,6 +123,11 @@ function validate(event) {
         console.log("bello!")
         console.log("what could this mean?")
     }
+    else if (input.value.toLowerCase() === "foursevenzerofour") {
+        clear();
+        change.innerHTML = "YASSSS"
+        window.open("laststep", '_blank')
+    }
     else {
         clear();
         nocommandchar();
