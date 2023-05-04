@@ -4,7 +4,7 @@
 
 
 
-console.log('hey');
+
 
 
 
@@ -28,13 +28,17 @@ function validate(event) {
         }, parseInt(newtime[1])*1750)
 
     }
-    else if (input.value.toLowerCase() === "Chambon2022") {
+    else if (input.value.toLowerCase() === "chambon2022") {
         clear();
         window.open("Chambon2022", '_blank');
     }
     else if (input.value.toLowerCase() === "amor <3") {
         clear();
         window.open("mcknz", '_blank');
+    }
+    else if (input.value.toLowerCase() === "hey :)") {
+        clear();
+        window.open("prom", '_blank');
     }
     else if (input.value.toLowerCase() === "secret") {
         clear();
@@ -105,7 +109,20 @@ function validate(event) {
     else if (input.value.toLowerCase()=== "") {
         console.log("hey, madge.")
     }
-
+    else if (input.value.toLowerCase() === "bello!") {
+        clear();
+        window.open('hmmm.html', '_blank')
+    }
+    else if (input.value.toLowerCase() === "hint") {
+        clear();
+        change.innerHTML = "THE NUMBERS... WHAT DO THEY MEAN? (The video?)"
+    }
+    else if (input.value.toLowerCase() === "start") {
+        clear();
+        change.innerHTML = "Might want to INSPECT something hmmmm..."
+        console.log("bello!")
+        console.log("what could this mean?")
+    }
     else {
         clear();
         nocommandchar();

@@ -11,10 +11,10 @@ var linksHelp = ("sir this is a wendys")
 var heyyy = linksHelp.length;
 var helpChar = ('secret, links, ...');
 const newtime = ["4s", "3s" , "2s", "2.5s", "2s", "7s"]
-console.log(heyyy)
+
 
 const timevalue = parseInt(getComputedStyle(rootstuff).getPropertyValue('--time'));
-console.log(linksHelp.length);
+
 function instachar() {
     const characterLength = 20;
     
