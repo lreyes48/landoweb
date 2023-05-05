@@ -3,10 +3,10 @@ setTimeout(function() {
 }, parseInt(1500))
 setTimeout(function() {
   document.getElementById("bello").innerHTML = "For hint type: 'hint' in the terminal";
-}, parseInt(320000))
+}, parseInt(120000))
 setTimeout(function() {
   document.getElementById("bello").innerHTML = "When in doubt, INSPECT! (in console)";
-}, parseInt(380000))
+}, parseInt(180000))
 
 Object.defineProperty(window, "foursevenzerofour", {
     get: function() {
