@@ -1,0 +1,22 @@
+.chomp {
+    color: brown;
+    font-weight: bolder;
+}
+.chomp1 {
+    color: white;
+}
+.background {
+    background-color: black;
+}
+.chomp2 {
+    color:greenyellow;
+    font-size: small;
+}
+.dark_red_text {
+    color:darkred
+}
+.scary_video {
+    position: absolute;
+    top: 10%;
+    left: 53%;    
+}
